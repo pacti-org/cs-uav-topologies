@@ -6,7 +6,7 @@ Our grammar's primary goal is to generate all legal configurations of components
 
 <img src="https://raw.githubusercontent.com/FormalSystems/media/main/case_studies/uav_topologies/grammar-1.png" alt="grid" style="width: 1000px;"/>
 
-<img src="uav_design_process.gif">
+<img src="uav_design_process_example.gif">
 
 
 ## Installation
