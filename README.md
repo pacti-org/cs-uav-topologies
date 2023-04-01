@@ -4,9 +4,9 @@ We demonstrate how pacti can be utilized to generate designs for Unmanned Aerial
 
 Our grammar's primary goal is to generate all legal configurations of components and their connections within the 3D grid. A context-sensitive grammar (CSG) is a formal grammar that describes a formal language through a set of rules that define how strings of symbols within the language can be generated.
 
-<img src="https://raw.githubusercontent.com/FormalSystems/media/main/case_studies/uav_topologies/grammar-1.png" alt="grid" style="width: 1000px;"/>
+<img src="https://raw.githubusercontent.com/pacti-org/media/main/case_studies/uav_topologies/grammar-1.png" alt="grid" style="width: 1000px;"/>
 
-<img src="uav_design_process_example.gif">
+<img src="https://raw.githubusercontent.com/pacti-org/media/main/case_studies/uav_topologies/uav_design_process_example.gif" alt="grid" style="width: 400px;"/>
 
 
 ## Installation
