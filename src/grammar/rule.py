@@ -6,7 +6,7 @@ from dataclasses import dataclass
 
 from matplotlib.figure import Figure
 
-from pacti.terms.polyhedra import PolyhedralContract
+from pacti.contracts import PolyhedralIoContract
 
 from src.contracts_utils.union import ContractsUnions
 from src.shared.shared import Direction, SymbolType, symbols_colors
@@ -40,7 +40,7 @@ class Rule:
         """Creating Contracts"""
         contract_union = ContractsUnions(name=self.name)
         for constraint in constraints:
-            io_contract = PolyhedralContract.from_string(
+            io_contract = PolyhedralIoContract.from_strings(
                 input_vars=list(symbols), output_vars=[], assumptions=constraint, guarantees=[]
             )
 
